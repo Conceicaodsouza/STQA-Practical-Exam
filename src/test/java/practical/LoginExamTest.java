@@ -48,7 +48,9 @@ public class LoginExamTest {
         // STUDENT TASK 1
         // Enter username "student"
         // =====================================================
-        // WRITE YOUR CODE HERE
+
+        driver.findElement(By.id("username"))
+              .sendKeys("student");
 
         String enteredUsername =
                 driver.findElement(By.id("username"))
@@ -68,7 +70,9 @@ public class LoginExamTest {
         // STUDENT TASK 2
         // Enter password "1234"
         // =====================================================
-        // WRITE YOUR CODE HERE
+
+        driver.findElement(By.id("password"))
+              .sendKeys("1234");
 
         String enteredPassword =
                 driver.findElement(By.id("password"))
@@ -87,7 +91,9 @@ public class LoginExamTest {
         // STUDENT TASK 3
         // Click Login button
         // =====================================================
-        // WRITE YOUR CODE HERE
+
+        driver.findElement(By.id("loginBtn"))
+              .click();
 
 
         // =====================================================
